@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    background: rgb(13,180,184);
+    background: linear-gradient(47deg, rgba(13,180,184,1) 4%, rgba(162,228,203,1) 33%, rgba(157,217,196,1) 66%, rgba(12,212,149,1) 95%); 
+    padding: 1em;
+  }
+  
+  nav a {
+    color: rgb(12, 16, 148);
+    margin: 0 1em;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+  }
+  
+  nav a:hover {
+   font-size: large;
+   transition: ease-in-out 0.3s;
+   font-family: 'Courier New', Courier, monospace;
+  }
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    padding: 1em;
+  }
+  
+  .book-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    text-align: center;
+    
+  }
+  .book-card a{
+    text-decoration: none;
+  }
+  .book-card img {
+    max-width: 200px;
+    max-height: 200px;
+
+    border-radius: 8px;
+  }
+  
+  .book-card h3 {
+    margin: 0.5em 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+    color: rgb(3, 13, 74);
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+  }
+  
+  form button:hover {
+    transition: ease-in-out 0.5s;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+  }
